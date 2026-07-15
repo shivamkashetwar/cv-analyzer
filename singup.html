@@ -1,0 +1,19 @@
+{% block content "base.html" %}
+
+{% block content %}
+<div class="auth-container">
+ <div class="auth-card">
+   <h2>
+    create account
+    <p class="sub-text">start your AI career journey </p>
+   </h2>
+   <form action="POST"></form>
+     <input type="email" name="email" placeholder="enter your email" required>
+     <input type="password" name="password" placeholder="create a password" required>
+     <p class="sub-text">use atleast 6 character</p>
+        <button type="submit">sign up</button>
+    </form>
+    <p class="switch-auth">already have an account? <a href="/login"></a></p>
+ </div>
+</div>
+{% endblock %}
